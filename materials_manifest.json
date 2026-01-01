@@ -1,0 +1,1781 @@
+{
+  "version": 2,
+  "input_dir": "/kaggle/input/material/material/مجلد جديد",
+  "unified_size": 768,
+  "circle_size": 220,
+  "items": [
+    {
+      "id": "floor_marble_black_marble_veined_4",
+      "type": "floor",
+      "category": "marble",
+      "name": "black_marble_veined_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_marble_veined_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_black_marble_veined_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_black_marble_veined_4.png"
+    },
+    {
+      "id": "floor_stone_blue_stone_tiles",
+      "type": "floor",
+      "category": "stone",
+      "name": "blue_stone_tiles",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/blue_stone_tiles.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_blue_stone_tiles.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_blue_stone_tiles.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_23",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_23",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_23.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_23.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_23.png"
+    },
+    {
+      "id": "floor_marble_white_marble_breccia",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_breccia",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_breccia.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_breccia.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_breccia.png"
+    },
+    {
+      "id": "floor_marble_white_marble_green_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_green_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_green_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_green_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_green_veined.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_6",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_6",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_6.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_6.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_6.png"
+    },
+    {
+      "id": "floor_marble_dark_grey_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "dark_grey_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_grey_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_dark_grey_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_dark_grey_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_brown_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "brown_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_brown_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_brown_marble_veined_2.png"
+    },
+    {
+      "id": "floor_stone_dark_stacked_stone",
+      "type": "floor",
+      "category": "stone",
+      "name": "dark_stacked_stone",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_stacked_stone.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_dark_stacked_stone.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_dark_stacked_stone.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_slatted",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_slatted",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_slatted.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_slatted.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_slatted.png"
+    },
+    {
+      "id": "floor_marble_gray_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "gray_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_gray_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_gray_marble_veined.png"
+    },
+    {
+      "id": "floor_stone_black_stone_rough",
+      "type": "floor",
+      "category": "stone",
+      "name": "black_stone_rough",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_stone_rough.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_black_stone_rough.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_black_stone_rough.png"
+    },
+    {
+      "id": "floor_concrete_dark_concrete_spotted",
+      "type": "floor",
+      "category": "concrete",
+      "name": "dark_concrete_spotted",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_concrete_spotted.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_dark_concrete_spotted.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_dark_concrete_spotted.png"
+    },
+    {
+      "id": "floor_marble_black_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "black_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_black_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_black_marble_veined_3.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined_6",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined_6",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined_6.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined_6.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined_6.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_5",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_5",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_5.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_5.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_5.png"
+    },
+    {
+      "id": "floor_wood_brown_wood_planks",
+      "type": "floor",
+      "category": "wood",
+      "name": "brown_wood_planks",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_wood_planks.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_brown_wood_planks.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_brown_wood_planks.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_hexagonal_gray_white",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_hexagonal_gray_white",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_hexagonal_gray_white.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_hexagonal_gray_white.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_hexagonal_gray_white.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_brown",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_brown",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_brown.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_brown.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_brown.png"
+    },
+    {
+      "id": "floor_stone_stone_chevron_mixed_neutral",
+      "type": "floor",
+      "category": "stone",
+      "name": "stone_chevron_mixed_neutral",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/stone_chevron_mixed_neutral.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_stone_chevron_mixed_neutral.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_stone_chevron_mixed_neutral.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_black_and_white_geometric",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_black_and_white_geometric",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_black_and_white_geometric.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_black_and_white_geometric.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_black_and_white_geometric.png"
+    },
+    {
+      "id": "floor_mosaic_white_mosaic_with_gold_leaf_pattern",
+      "type": "floor",
+      "category": "mosaic",
+      "name": "white_mosaic_with_gold_leaf_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_mosaic_with_gold_leaf_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_mosaic_white_mosaic_with_gold_leaf_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_mosaic_white_mosaic_with_gold_leaf_pattern.png"
+    },
+    {
+      "id": "floor_concrete_concrete_patterned_beige",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_patterned_beige",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_patterned_beige.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_patterned_beige.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_patterned_beige.png"
+    },
+    {
+      "id": "floor_marble_dark_green_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "dark_green_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_green_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_dark_green_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_dark_green_marble_veined.png"
+    },
+    {
+      "id": "floor_concrete_light_beige_concrete_texture",
+      "type": "floor",
+      "category": "concrete",
+      "name": "light_beige_concrete_texture",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_beige_concrete_texture.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_light_beige_concrete_texture.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_light_beige_concrete_texture.png"
+    },
+    {
+      "id": "floor_wood_light_oak_wood_3",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_oak_wood_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_oak_wood_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_oak_wood_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_oak_wood_3.png"
+    },
+    {
+      "id": "wall_plaster_white_textured_plaster_2",
+      "type": "wall",
+      "category": "plaster",
+      "name": "white_textured_plaster_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_textured_plaster_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_plaster_white_textured_plaster_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_plaster_white_textured_plaster_2.png"
+    },
+    {
+      "id": "floor_marble_white_marble_grey_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_grey_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_grey_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_grey_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_grey_veined.png"
+    },
+    {
+      "id": "floor_wood_brown_wood_circle_recessed_pattern",
+      "type": "floor",
+      "category": "wood",
+      "name": "brown_wood_circle_recessed_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_wood_circle_recessed_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_brown_wood_circle_recessed_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_brown_wood_circle_recessed_pattern.png"
+    },
+    {
+      "id": "floor_travertine_brown_travertine_natural",
+      "type": "floor",
+      "category": "travertine",
+      "name": "brown_travertine_natural",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_travertine_natural.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_brown_travertine_natural.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_brown_travertine_natural.png"
+    },
+    {
+      "id": "floor_wood_wood_light_brown_striped",
+      "type": "floor",
+      "category": "wood",
+      "name": "wood_light_brown_striped",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/wood_light_brown_striped.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_wood_light_brown_striped.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_wood_light_brown_striped.png"
+    },
+    {
+      "id": "wall_stucco_white_stucco_concrete",
+      "type": "wall",
+      "category": "stucco",
+      "name": "white_stucco_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_stucco_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_stucco_white_stucco_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_stucco_white_stucco_concrete.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_3.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_27",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_27",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_27.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_27.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_27.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_brown_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_brown_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_brown_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_brown_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_brown_veined.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_geometric_pale_green_white",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_geometric_pale_green_white",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_geometric_pale_green_white.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_geometric_pale_green_white.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_geometric_pale_green_white.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_20",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_20",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_20.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_20.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_20.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_18",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_18",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_18.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_18.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_18.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_taupe_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "taupe_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/taupe_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_taupe_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_taupe_marble_veined.png"
+    },
+    {
+      "id": "floor_wood_light_wood_grain",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_wood_grain",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_wood_grain.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_wood_grain.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_wood_grain.png"
+    },
+    {
+      "id": "floor_marble_light_grey_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "light_grey_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_grey_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_light_grey_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_light_grey_marble_veined.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine_4",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine_4.png"
+    },
+    {
+      "id": "floor_marble_white_marble_grey_gold_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_grey_gold_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_grey_gold_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_grey_gold_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_grey_gold_veined.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_chevron",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_chevron",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_chevron.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_chevron.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_chevron.png"
+    },
+    {
+      "id": "floor_marble_brown_marble_veined_5",
+      "type": "floor",
+      "category": "marble",
+      "name": "brown_marble_veined_5",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_marble_veined_5.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_brown_marble_veined_5.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_brown_marble_veined_5.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_11",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_11",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_11.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_11.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_11.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_16",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_16",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_16.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_16.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_16.png"
+    },
+    {
+      "id": "floor_marble_creamy_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "creamy_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/creamy_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_creamy_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_creamy_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_beige_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_beige_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_beige_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_beige_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_beige_veined_2.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_21",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_21",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_21.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_21.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_21.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_dark",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_dark",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_dark.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_dark.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_dark.png"
+    },
+    {
+      "id": "wall_stucco_light_beige_stucco",
+      "type": "wall",
+      "category": "stucco",
+      "name": "light_beige_stucco",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_beige_stucco.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_stucco_light_beige_stucco.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_stucco_light_beige_stucco.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_8",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_8",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_8.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_8.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_8.png"
+    },
+    {
+      "id": "floor_granite_black_granite",
+      "type": "floor",
+      "category": "granite",
+      "name": "black_granite",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_granite.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_black_granite.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_black_granite.png"
+    },
+    {
+      "id": "floor_concrete_textured_white_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "textured_white_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/textured_white_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_textured_white_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_textured_white_concrete.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined_4",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined_4.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_beige_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_beige_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_beige_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_beige_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_beige_2.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_white_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_white_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_white_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_white_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_white_veined.png"
+    },
+    {
+      "id": "floor_marble_white_marble_brown_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_brown_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_brown_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_brown_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_brown_veined.png"
+    },
+    {
+      "id": "floor_concrete_light_beige_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "light_beige_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_beige_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_light_beige_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_light_beige_concrete.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_leaf_pattern_beige",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_leaf_pattern_beige",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_leaf_pattern_beige.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_leaf_pattern_beige.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_leaf_pattern_beige.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_parquet",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_parquet",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_parquet.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_parquet.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_parquet.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_gray_mix",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_gray_mix",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_gray_mix.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_gray_mix.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_gray_mix.png"
+    },
+    {
+      "id": "floor_stone_grey_beige_stone_rough",
+      "type": "floor",
+      "category": "stone",
+      "name": "grey_beige_stone_rough",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_beige_stone_rough.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_grey_beige_stone_rough.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_grey_beige_stone_rough.png"
+    },
+    {
+      "id": "floor_wood_light_natural_wood",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_natural_wood",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_natural_wood.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_natural_wood.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_natural_wood.png"
+    },
+    {
+      "id": "floor_stone_gray_stone_tiles",
+      "type": "floor",
+      "category": "stone",
+      "name": "gray_stone_tiles",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_stone_tiles.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_gray_stone_tiles.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_gray_stone_tiles.png"
+    },
+    {
+      "id": "floor_wood_light_wood_plank",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_wood_plank",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_wood_plank.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_wood_plank.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_wood_plank.png"
+    },
+    {
+      "id": "floor_marble_white_marble_variegated",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_variegated",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_variegated.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_variegated.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_variegated.png"
+    },
+    {
+      "id": "floor_wood_light_wood_planks",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_wood_planks",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_wood_planks.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_wood_planks.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_wood_planks.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine_striated",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine_striated",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine_striated.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine_striated.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine_striated.png"
+    },
+    {
+      "id": "floor_marble_dark_brown_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "dark_brown_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_dark_brown_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_dark_brown_marble_veined.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine.png"
+    },
+    {
+      "id": "floor_wood_wood_brown_vertical_striped",
+      "type": "floor",
+      "category": "wood",
+      "name": "wood_brown_vertical_striped",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/wood_brown_vertical_striped.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_wood_brown_vertical_striped.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_wood_brown_vertical_striped.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_26",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_26",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_26.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_26.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_26.png"
+    },
+    {
+      "id": "floor_concrete_gray_concrete_rough",
+      "type": "floor",
+      "category": "concrete",
+      "name": "gray_concrete_rough",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_concrete_rough.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_gray_concrete_rough.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_gray_concrete_rough.png"
+    },
+    {
+      "id": "floor_concrete_concrete_light_pink",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_light_pink",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_light_pink.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_light_pink.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_light_pink.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine_3",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine_3.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_22",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_22",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_22.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_22.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_22.png"
+    },
+    {
+      "id": "floor_terrazzo_white_terrazzo_multicolor",
+      "type": "floor",
+      "category": "terrazzo",
+      "name": "white_terrazzo_multicolor",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_terrazzo_multicolor.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_terrazzo_white_terrazzo_multicolor.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_terrazzo_white_terrazzo_multicolor.png"
+    },
+    {
+      "id": "floor_travertine_light_grey_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "light_grey_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_grey_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_light_grey_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_light_grey_travertine.png"
+    },
+    {
+      "id": "wall_wallpaper_beige_leaf_pattern_wallpaper",
+      "type": "wall",
+      "category": "wallpaper",
+      "name": "beige_leaf_pattern_wallpaper",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_leaf_pattern_wallpaper.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_wallpaper_beige_leaf_pattern_wallpaper.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_wallpaper_beige_leaf_pattern_wallpaper.png"
+    },
+    {
+      "id": "floor_travertine_travertine_beige_smooth",
+      "type": "floor",
+      "category": "travertine",
+      "name": "travertine_beige_smooth",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/travertine_beige_smooth.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_travertine_beige_smooth.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_travertine_beige_smooth.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_4",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_4.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined_2.png"
+    },
+    {
+      "id": "wall_wallpaper_light_beige_leaf_wallpaper",
+      "type": "wall",
+      "category": "wallpaper",
+      "name": "light_beige_leaf_wallpaper",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_beige_leaf_wallpaper.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_wallpaper_light_beige_leaf_wallpaper.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_wallpaper_light_beige_leaf_wallpaper.png"
+    },
+    {
+      "id": "floor_granite_pink_black_granite",
+      "type": "floor",
+      "category": "granite",
+      "name": "pink_black_granite",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/pink_black_granite.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_pink_black_granite.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_pink_black_granite.png"
+    },
+    {
+      "id": "floor_granite_granite_white_brown_patterned",
+      "type": "floor",
+      "category": "granite",
+      "name": "granite_white_brown_patterned",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/granite_white_brown_patterned.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_granite_white_brown_patterned.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_granite_white_brown_patterned.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_hexagonal_patterned_white_gray",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_hexagonal_patterned_white_gray",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_hexagonal_patterned_white_gray.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_hexagonal_patterned_white_gray.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_hexagonal_patterned_white_gray.png"
+    },
+    {
+      "id": "floor_concrete_concrete_gray_worn",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_gray_worn",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_gray_worn.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_gray_worn.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_gray_worn.png"
+    },
+    {
+      "id": "floor_stone_gray_stone_mixed_pattern",
+      "type": "floor",
+      "category": "stone",
+      "name": "gray_stone_mixed_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_stone_mixed_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_gray_stone_mixed_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_gray_stone_mixed_pattern.png"
+    },
+    {
+      "id": "floor_travertine_travertine_beige_brown",
+      "type": "floor",
+      "category": "travertine",
+      "name": "travertine_beige_brown",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/travertine_beige_brown.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_travertine_beige_brown.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_travertine_beige_brown.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_10",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_10",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_10.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_10.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_10.png"
+    },
+    {
+      "id": "wall_stone_beige_stone_masonry",
+      "type": "wall",
+      "category": "stone",
+      "name": "beige_stone_masonry",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_stone_masonry.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_stone_beige_stone_masonry.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_stone_beige_stone_masonry.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine_2",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine_2.png"
+    },
+    {
+      "id": "floor_marble_white_grey_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_grey_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_grey_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_grey_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_grey_marble_veined.png"
+    },
+    {
+      "id": "floor_concrete_beige_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "beige_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_beige_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_beige_concrete.png"
+    },
+    {
+      "id": "floor_stone_dark_grey_stone",
+      "type": "floor",
+      "category": "stone",
+      "name": "dark_grey_stone",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_grey_stone.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_dark_grey_stone.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_dark_grey_stone.png"
+    },
+    {
+      "id": "floor_marble_brown_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "brown_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_brown_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_brown_marble_veined.png"
+    },
+    {
+      "id": "floor_wood_wood_geometric_line_pattern",
+      "type": "floor",
+      "category": "wood",
+      "name": "wood_geometric_line_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/wood_geometric_line_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_wood_geometric_line_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_wood_geometric_line_pattern.png"
+    },
+    {
+      "id": "floor_travertine_creamy_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "creamy_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/creamy_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_creamy_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_creamy_travertine.png"
+    },
+    {
+      "id": "floor_marble_green_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "green_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/green_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_green_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_green_marble_veined_3.png"
+    },
+    {
+      "id": "wall_plaster_white_textured_plaster",
+      "type": "wall",
+      "category": "plaster",
+      "name": "white_textured_plaster",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_textured_plaster.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_plaster_white_textured_plaster.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_plaster_white_textured_plaster.png"
+    },
+    {
+      "id": "floor_stone_grey_limestone",
+      "type": "floor",
+      "category": "stone",
+      "name": "grey_limestone",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_limestone.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_grey_limestone.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_grey_limestone.png"
+    },
+    {
+      "id": "floor_marble_black_marble_veined_5",
+      "type": "floor",
+      "category": "marble",
+      "name": "black_marble_veined_5",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_marble_veined_5.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_black_marble_veined_5.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_black_marble_veined_5.png"
+    },
+    {
+      "id": "floor_concrete_gray_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "gray_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_gray_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_gray_concrete.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_geometric_pattern",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_geometric_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_geometric_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_geometric_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_geometric_pattern.png"
+    },
+    {
+      "id": "floor_ceramic_geometric_pattern_ceramic",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "geometric_pattern_ceramic",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/geometric_pattern_ceramic.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_geometric_pattern_ceramic.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_geometric_pattern_ceramic.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_geometric_black_white",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_geometric_black_white",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_geometric_black_white.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_geometric_black_white.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_geometric_black_white.png"
+    },
+    {
+      "id": "floor_travertine_beige_travertine_natural",
+      "type": "floor",
+      "category": "travertine",
+      "name": "beige_travertine_natural",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_travertine_natural.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_beige_travertine_natural.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_beige_travertine_natural.png"
+    },
+    {
+      "id": "floor_wood_light_brown_wood_grain",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_brown_wood_grain",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_brown_wood_grain.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_brown_wood_grain.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_brown_wood_grain.png"
+    },
+    {
+      "id": "floor_marble_blue_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "blue_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/blue_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_blue_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_blue_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_grey_marble_veined_4",
+      "type": "floor",
+      "category": "marble",
+      "name": "grey_marble_veined_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_marble_veined_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_grey_marble_veined_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_grey_marble_veined_4.png"
+    },
+    {
+      "id": "floor_marble_green_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "green_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/green_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_green_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_green_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_green_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "green_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/green_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_green_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_green_marble_veined_2.png"
+    },
+    {
+      "id": "floor_concrete_light_grey_concrete_2",
+      "type": "floor",
+      "category": "concrete",
+      "name": "light_grey_concrete_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_grey_concrete_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_light_grey_concrete_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_light_grey_concrete_2.png"
+    },
+    {
+      "id": "floor_concrete_beige_textured_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "beige_textured_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_textured_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_beige_textured_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_beige_textured_concrete.png"
+    },
+    {
+      "id": "floor_marble_grey_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "grey_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_grey_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_grey_marble_veined_2.png"
+    },
+    {
+      "id": "floor_wood_wood_brown_planked",
+      "type": "floor",
+      "category": "wood",
+      "name": "wood_brown_planked",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/wood_brown_planked.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_wood_brown_planked.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_wood_brown_planked.png"
+    },
+    {
+      "id": "floor_travertine_travertine_beige_variegated",
+      "type": "floor",
+      "category": "travertine",
+      "name": "travertine_beige_variegated",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/travertine_beige_variegated.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_travertine_beige_variegated.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_travertine_beige_variegated.png"
+    },
+    {
+      "id": "floor_stone_green_stone_veined",
+      "type": "floor",
+      "category": "stone",
+      "name": "green_stone_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/green_stone_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_green_stone_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_green_stone_veined.png"
+    },
+    {
+      "id": "floor_stone_beige_stone_mosaic",
+      "type": "floor",
+      "category": "stone",
+      "name": "beige_stone_mosaic",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_stone_mosaic.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_beige_stone_mosaic.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_beige_stone_mosaic.png"
+    },
+    {
+      "id": "floor_marble_white_marble_pink_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_pink_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_pink_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_pink_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_pink_veined.png"
+    },
+    {
+      "id": "floor_marble_grey_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "grey_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_grey_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_grey_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_beige",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_beige",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_beige.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_beige.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_beige.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_beige_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_beige_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_beige_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_beige_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_beige_veined.png"
+    },
+    {
+      "id": "floor_terrazzo_beige_terrazzo",
+      "type": "floor",
+      "category": "terrazzo",
+      "name": "beige_terrazzo",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_terrazzo.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_terrazzo_beige_terrazzo.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_terrazzo_beige_terrazzo.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_24",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_24",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_24.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_24.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_24.png"
+    },
+    {
+      "id": "floor_concrete_grey_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "grey_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_grey_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_grey_concrete.png"
+    },
+    {
+      "id": "floor_stone_multicolor_natural_stone",
+      "type": "floor",
+      "category": "stone",
+      "name": "multicolor_natural_stone",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/multicolor_natural_stone.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_multicolor_natural_stone.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_multicolor_natural_stone.png"
+    },
+    {
+      "id": "floor_concrete_concrete_grey_uniform",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_grey_uniform",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_grey_uniform.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_grey_uniform.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_grey_uniform.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_grey_beige",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_grey_beige",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_grey_beige.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_grey_beige.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_grey_beige.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_25",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_25",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_25.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_25.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_25.png"
+    },
+    {
+      "id": "floor_stone_green_stone_smooth",
+      "type": "floor",
+      "category": "stone",
+      "name": "green_stone_smooth",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/green_stone_smooth.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_green_stone_smooth.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_green_stone_smooth.png"
+    },
+    {
+      "id": "floor_wood_beige_wood_geometric",
+      "type": "floor",
+      "category": "wood",
+      "name": "beige_wood_geometric",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_wood_geometric.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_beige_wood_geometric.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_beige_wood_geometric.png"
+    },
+    {
+      "id": "floor_marble_light_grey_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "light_grey_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_grey_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_light_grey_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_light_grey_marble_veined_2.png"
+    },
+    {
+      "id": "floor_wood_dark_wood_geometric_pattern",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_wood_geometric_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_wood_geometric_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_wood_geometric_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_wood_geometric_pattern.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_grey_pattern",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_grey_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_grey_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_grey_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_grey_pattern.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_grain",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_grain",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_grain.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_grain.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_grain.png"
+    },
+    {
+      "id": "floor_marble_brown_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "brown_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_brown_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_brown_marble_veined_3.png"
+    },
+    {
+      "id": "floor_marble_white_marble_beige_grey_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_beige_grey_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_beige_grey_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_beige_grey_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_beige_grey_veined.png"
+    },
+    {
+      "id": "floor_stone_dark_grey_stone_rough",
+      "type": "floor",
+      "category": "stone",
+      "name": "dark_grey_stone_rough",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_grey_stone_rough.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_dark_grey_stone_rough.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_dark_grey_stone_rough.png"
+    },
+    {
+      "id": "floor_wood_light_oak_wood_2",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_oak_wood_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_oak_wood_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_oak_wood_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_oak_wood_2.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_13",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_13",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_13.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_13.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_13.png"
+    },
+    {
+      "id": "floor_marble_grey_marble",
+      "type": "floor",
+      "category": "marble",
+      "name": "grey_marble",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_marble.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_grey_marble.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_grey_marble.png"
+    },
+    {
+      "id": "floor_travertine_light_beige_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "light_beige_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_beige_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_light_beige_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_light_beige_travertine.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_14",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_14",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_14.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_14.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_14.png"
+    },
+    {
+      "id": "floor_wood_light_oak_wood",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_oak_wood",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_oak_wood.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_oak_wood.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_oak_wood.png"
+    },
+    {
+      "id": "floor_travertine_travertine_brown_mottled",
+      "type": "floor",
+      "category": "travertine",
+      "name": "travertine_brown_mottled",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/travertine_brown_mottled.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_travertine_brown_mottled.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_travertine_brown_mottled.png"
+    },
+    {
+      "id": "floor_travertine_light_travertine_striated",
+      "type": "floor",
+      "category": "travertine",
+      "name": "light_travertine_striated",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_travertine_striated.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_light_travertine_striated.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_light_travertine_striated.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_15",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_15",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_15.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_15.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_15.png"
+    },
+    {
+      "id": "floor_marble_black_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "black_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_black_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_black_marble_veined.png"
+    },
+    {
+      "id": "floor_marble_brown_marble_veined_4",
+      "type": "floor",
+      "category": "marble",
+      "name": "brown_marble_veined_4",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_marble_veined_4.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_brown_marble_veined_4.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_brown_marble_veined_4.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_geometric_gray_white",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_geometric_gray_white",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_geometric_gray_white.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_geometric_gray_white.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_geometric_gray_white.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined_5",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined_5",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined_5.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined_5.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined_5.png"
+    },
+    {
+      "id": "floor_travertine_grey_travertine_square_tiles",
+      "type": "floor",
+      "category": "travertine",
+      "name": "grey_travertine_square_tiles",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_travertine_square_tiles.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_grey_travertine_square_tiles.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_grey_travertine_square_tiles.png"
+    },
+    {
+      "id": "floor_wood_brown_wood_planks_2",
+      "type": "floor",
+      "category": "wood",
+      "name": "brown_wood_planks_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/brown_wood_planks_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_brown_wood_planks_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_brown_wood_planks_2.png"
+    },
+    {
+      "id": "wall_wallpaper_decorative_wallpaper_grey_leaf_pattern",
+      "type": "wall",
+      "category": "wallpaper",
+      "name": "decorative_wallpaper_grey_leaf_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/decorative_wallpaper_grey_leaf_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_wallpaper_decorative_wallpaper_grey_leaf_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_wallpaper_decorative_wallpaper_grey_leaf_pattern.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_hexagonal_gray_white_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_hexagonal_gray_white_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_hexagonal_gray_white_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_hexagonal_gray_white_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_hexagonal_gray_white_2.png"
+    },
+    {
+      "id": "floor_stone_gray_stone_slate_pattern",
+      "type": "floor",
+      "category": "stone",
+      "name": "gray_stone_slate_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_stone_slate_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_gray_stone_slate_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_gray_stone_slate_pattern.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_beige_white_patterned",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_beige_white_patterned",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_beige_white_patterned.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_beige_white_patterned.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_beige_white_patterned.png"
+    },
+    {
+      "id": "floor_granite_gray_granite",
+      "type": "floor",
+      "category": "granite",
+      "name": "gray_granite",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_granite.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_gray_granite.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_gray_granite.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_chevron_2",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_chevron_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_chevron_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_chevron_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_chevron_2.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined.png"
+    },
+    {
+      "id": "floor_granite_white_granite_spotted",
+      "type": "floor",
+      "category": "granite",
+      "name": "white_granite_spotted",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_granite_spotted.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_white_granite_spotted.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_white_granite_spotted.png"
+    },
+    {
+      "id": "floor_wood_light_brown_wood",
+      "type": "floor",
+      "category": "wood",
+      "name": "light_brown_wood",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_brown_wood.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_light_brown_wood.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_light_brown_wood.png"
+    },
+    {
+      "id": "floor_stone_black_natural_stone",
+      "type": "floor",
+      "category": "stone",
+      "name": "black_natural_stone",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_natural_stone.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_black_natural_stone.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_black_natural_stone.png"
+    },
+    {
+      "id": "wall_brick_red_brick",
+      "type": "wall",
+      "category": "brick",
+      "name": "red_brick",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/red_brick.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_brick_red_brick.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_brick_red_brick.png"
+    },
+    {
+      "id": "floor_travertine_gray_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "gray_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/gray_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_gray_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_gray_travertine.png"
+    },
+    {
+      "id": "wall_brick_red_worn_brick",
+      "type": "wall",
+      "category": "brick",
+      "name": "red_worn_brick",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/red_worn_brick.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_brick_red_worn_brick.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_brick_red_worn_brick.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_hexagon_pattern",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_hexagon_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_hexagon_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_hexagon_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_hexagon_pattern.png"
+    },
+    {
+      "id": "floor_concrete_concrete_light_beige_rough",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_light_beige_rough",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_light_beige_rough.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_light_beige_rough.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_light_beige_rough.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_12",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_12",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_12.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_12.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_12.png"
+    },
+    {
+      "id": "floor_concrete_beige_concrete_texture",
+      "type": "floor",
+      "category": "concrete",
+      "name": "beige_concrete_texture",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_concrete_texture.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_beige_concrete_texture.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_beige_concrete_texture.png"
+    },
+    {
+      "id": "floor_terrazzo_white_terrazzo",
+      "type": "floor",
+      "category": "terrazzo",
+      "name": "white_terrazzo",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_terrazzo.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_terrazzo_white_terrazzo.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_terrazzo_white_terrazzo.png"
+    },
+    {
+      "id": "floor_marble_grey_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "grey_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_grey_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_grey_marble_veined_3.png"
+    },
+    {
+      "id": "floor_concrete_concrete_geometric_black_white_gray",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_geometric_black_white_gray",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_geometric_black_white_gray.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_geometric_black_white_gray.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_geometric_black_white_gray.png"
+    },
+    {
+      "id": "floor_marble_beige_marble_veined_3",
+      "type": "floor",
+      "category": "marble",
+      "name": "beige_marble_veined_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/beige_marble_veined_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_beige_marble_veined_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_beige_marble_veined_3.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_7",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_7",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_7.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_7.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_7.png"
+    },
+    {
+      "id": "floor_granite_white_granite_granular",
+      "type": "floor",
+      "category": "granite",
+      "name": "white_granite_granular",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_granite_granular.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_granite_white_granite_granular.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_granite_white_granite_granular.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_17",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_17",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_17.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_17.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_17.png"
+    },
+    {
+      "id": "floor_concrete_concrete_light_grey",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_light_grey",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_light_grey.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_light_grey.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_light_grey.png"
+    },
+    {
+      "id": "floor_concrete_concrete_grey_tiles",
+      "type": "floor",
+      "category": "concrete",
+      "name": "concrete_grey_tiles",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/concrete_grey_tiles.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_concrete_grey_tiles.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_concrete_grey_tiles.png"
+    },
+    {
+      "id": "floor_travertine_grey_travertine",
+      "type": "floor",
+      "category": "travertine",
+      "name": "grey_travertine",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/grey_travertine.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_travertine_grey_travertine.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_travertine_grey_travertine.png"
+    },
+    {
+      "id": "floor_stone_black_stone_granular",
+      "type": "floor",
+      "category": "stone",
+      "name": "black_stone_granular",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_stone_granular.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_black_stone_granular.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_black_stone_granular.png"
+    },
+    {
+      "id": "floor_marble_black_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "black_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/black_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_black_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_black_marble_veined_2.png"
+    },
+    {
+      "id": "floor_concrete_light_grey_concrete",
+      "type": "floor",
+      "category": "concrete",
+      "name": "light_grey_concrete",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_grey_concrete.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_concrete_light_grey_concrete.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_concrete_light_grey_concrete.png"
+    },
+    {
+      "id": "floor_wood_dark_brown_wood_grain_2",
+      "type": "floor",
+      "category": "wood",
+      "name": "dark_brown_wood_grain_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/dark_brown_wood_grain_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_wood_dark_brown_wood_grain_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_wood_dark_brown_wood_grain_2.png"
+    },
+    {
+      "id": "floor_marble_marble_look_ceramic_hexagon_white_beige",
+      "type": "floor",
+      "category": "marble",
+      "name": "marble_look_ceramic_hexagon_white_beige",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/marble_look_ceramic_hexagon_white_beige.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_marble_look_ceramic_hexagon_white_beige.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_marble_look_ceramic_hexagon_white_beige.png"
+    },
+    {
+      "id": "floor_stone_light_gray_stone_irregular",
+      "type": "floor",
+      "category": "stone",
+      "name": "light_gray_stone_irregular",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/light_gray_stone_irregular.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_light_gray_stone_irregular.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_light_gray_stone_irregular.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_2",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_2",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_2.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_2.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_2.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_19",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_19",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_19.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_19.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_19.png"
+    },
+    {
+      "id": "wall_plaster_white_textured_plaster_3",
+      "type": "wall",
+      "category": "plaster",
+      "name": "white_textured_plaster_3",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_textured_plaster_3.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/wall_plaster_white_textured_plaster_3.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/wall_plaster_white_textured_plaster_3.png"
+    },
+    {
+      "id": "floor_ceramic_ceramic_blue_white_geometric",
+      "type": "floor",
+      "category": "ceramic",
+      "name": "ceramic_blue_white_geometric",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/ceramic_blue_white_geometric.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_ceramic_ceramic_blue_white_geometric.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_ceramic_ceramic_blue_white_geometric.png"
+    },
+    {
+      "id": "floor_stone_white_stone_irregular",
+      "type": "floor",
+      "category": "stone",
+      "name": "white_stone_irregular",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_stone_irregular.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_white_stone_irregular.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_white_stone_irregular.png"
+    },
+    {
+      "id": "floor_stone_white_stone_irregular_pattern",
+      "type": "floor",
+      "category": "stone",
+      "name": "white_stone_irregular_pattern",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_stone_irregular_pattern.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_stone_white_stone_irregular_pattern.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_stone_white_stone_irregular_pattern.png"
+    },
+    {
+      "id": "floor_marble_white_marble_veined_9",
+      "type": "floor",
+      "category": "marble",
+      "name": "white_marble_veined_9",
+      "src_original": "/kaggle/input/material/material/مجلد جديد/white_marble_veined_9.jpg",
+      "img_unified": "/kaggle/working/material_assets/unified/floor_marble_white_marble_veined_9.jpg",
+      "img_circle": "/kaggle/working/material_assets/circles/floor_marble_white_marble_veined_9.png"
+    }
+  ]
+}
