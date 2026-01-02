@@ -1,0 +1,305 @@
+@{
+    ViewData["Title"] = "Edit Room Design";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-content">
+                <a href="/Home/Upload" class="back-link">← Back</a>
+                <h1>Edit Design</h1>
+            </div>
+        </header>
+
+        <section class="edit-section">
+            <div class="stepper">
+                <div class="step active" data-step="1">
+                    <span class="step-number">1</span>
+                    <span class="step-label">Image</span>
+                </div>
+                <div class="step" data-step="2">
+                    <span class="step-number">2</span>
+                    <span class="step-label">Room Info</span>
+                </div>
+                <div class="step" data-step="3">
+                    <span class="step-number">3</span>
+                    <span class="step-label">Design</span>
+                </div>
+                <div class="step" data-step="4">
+                    <span class="step-number">4</span>
+                    <span class="step-label">Generate</span>
+                </div>
+            </div>
+
+            <div class="step-content">
+                <div class="step-panel active" id="step1">
+                    <h3>Room Image</h3>
+                    <div id="imagePreview" class="image-preview"></div>
+                </div>
+
+                <div class="step-panel" id="step2">
+                    <h3>Room Information</h3>
+                    <div class="form-group">
+                        <label>Room Area (m²)</label>
+                        <input type="number" id="roomArea" placeholder="Enter room area" min="1" step="0.1">
+                        <button class="btn btn-secondary" onclick="measureWithAR()">📱 Measure with AR</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Room Type</label>
+                        <select id="roomType">
+                            <option value="living_room">Living Room</option>
+                            <option value="bedroom">Bedroom</option>
+                            <option value="kitchen">Kitchen</option>
+                            <option value="bathroom">Bathroom</option>
+                            <option value="dining_room">Dining Room</option>
+                            <option value="home_office">Home Office</option>
+                            <option value="entrance_hall">Entrance Hall</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="step-panel" id="step3">
+                    <h3>Design Selection</h3>
+                    
+                    <div class="form-group">
+                        <label>Color Palette</label>
+                        <div id="palettesContainer" class="palettes-grid"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Material</label>
+                        <div id="materialsContainer" class="materials-grid"></div>
+                    </div>
+                </div>
+
+                <div class="step-panel" id="step4">
+                    <h3>Generate Design</h3>
+                    <div class="generate-info">
+                        <p><strong>Surface Mode:</strong> <span id="surfaceModeDisplay"></span></p>
+                        <p><strong>Room Type:</strong> <span id="roomTypeDisplay"></span></p>
+                        <p><strong>Room Area:</strong> <span id="roomAreaDisplay"></span> m²</p>
+                    </div>
+                    <button id="generateBtn" class="btn btn-primary" onclick="generateDesign()">
+                        ✨ Generate Design
+                    </button>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="btn btn-secondary" onclick="previousStep()" id="prevBtn" style="display:none;">
+                    ← Previous
+                </button>
+                <button class="btn btn-primary" onclick="nextStep()" id="nextBtn">
+                    Next →
+                </button>
+            </div>
+        </section>
+
+        <div id="loadingSpinner" class="loading-spinner" style="display:none;">
+            <div class="spinner"></div>
+            <p>Generating design...</p>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        const totalSteps = 4;
+        let selectedPalette = null;
+        let selectedMaterial = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeEdit();
+            loadColorPalettes();
+            loadMaterials();
+
+            // Reload material options whenever the user changes the room type
+            document.getElementById('roomType').addEventListener('change', () => {
+                loadMaterials();
+            });
+        });
+
+        function initializeEdit() {
+            const imageUrl = localStorage.getItem('imageUrl');
+            const surfaceMode = localStorage.getItem('surfaceMode') || 'both';
+            
+            if (imageUrl) {
+                document.getElementById('imagePreview').innerHTML = `<img src="${imageUrl}" alt="Room">`;
+            }
+
+            document.getElementById('surfaceModeDisplay').textContent = 
+                surfaceMode === 'both' ? 'Walls & Floors' : 
+                surfaceMode === 'walls' ? 'Walls Only' : 'Floors Only';
+        }
+
+        function loadColorPalettes() {
+            fetch('/Home/GetColorPalettes')
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        const container = document.getElementById('palettesContainer');
+                        data.data.forEach(palette => {
+                            const div = document.createElement('div');
+                            div.className = 'palette-item';
+                            div.onclick = () => selectPalette(palette);
+                            div.innerHTML = `
+                                <div class="palette-colors">
+                                    ${palette.colors.map(c => `<div style="background:${c}"></div>`).join('')}
+                                </div>
+                                <p>${palette.name}</p>
+                            `;
+                            container.appendChild(div);
+                        });
+                    }
+                });
+        }
+
+        function loadMaterials() {
+            const surfaceMode = localStorage.getItem('surfaceMode') || 'both';
+            const types = surfaceMode === 'walls' ? ['walls'] : surfaceMode === 'floors' ? ['flooring'] : ['walls', 'flooring'];
+
+            const roomType = document.getElementById('roomType')?.value || null;
+
+            // Clear old cards (so materials really change per room click)
+            const container = document.getElementById('materialsContainer');
+            container.innerHTML = '';
+            
+            types.forEach(type => {
+                const url = new URL('/Home/GetMaterials', window.location.origin);
+                url.searchParams.set('type', type);
+                if (roomType) url.searchParams.set('roomType', roomType);
+
+                fetch(url)
+                    .then(r => r.json())
+                    .then(data => {
+                        if (data.success) {
+                            data.data.forEach(material => {
+                                const div = document.createElement('div');
+                                div.className = 'material-item';
+                                div.onclick = () => selectMaterial(material);
+                                div.innerHTML = `
+                                    <div class="material-preview" style="background:url(${material.textureUrl || ''})"></div>
+                                    <p>${material.name}</p>
+                                `;
+                                container.appendChild(div);
+                            });
+                        }
+                    });
+            });
+        }
+
+        function selectPalette(palette) {
+            selectedPalette = palette;
+            document.querySelectorAll('.palette-item').forEach(el => el.classList.remove('selected'));
+            event.target.closest('.palette-item').classList.add('selected');
+        }
+
+        function selectMaterial(material) {
+            selectedMaterial = material;
+            document.querySelectorAll('.material-item').forEach(el => el.classList.remove('selected'));
+            event.target.closest('.material-item').classList.add('selected');
+        }
+
+        function nextStep() {
+            if (currentStep < totalSteps) {
+                if (validateStep(currentStep)) {
+                    currentStep++;
+                    updateStepDisplay();
+                }
+            }
+        }
+
+        function previousStep() {
+            if (currentStep > 1) {
+                currentStep--;
+                updateStepDisplay();
+            }
+        }
+
+        function validateStep(step) {
+            if (step === 1) return true;
+            if (step === 2) {
+                const area = document.getElementById('roomArea').value;
+                if (!area || area <= 0) {
+                    alert('Please enter a valid room area');
+                    return false;
+                }
+            }
+            if (step === 3) {
+                if (!selectedPalette || !selectedMaterial) {
+                    alert('Please select both palette and material');
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        function updateStepDisplay() {
+            document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+            
+            document.getElementById(`step${currentStep}`).classList.add('active');
+            document.querySelector(`[data-step="${currentStep}"]`).classList.add('active');
+
+            document.getElementById('prevBtn').style.display = currentStep > 1 ? 'block' : 'none';
+            document.getElementById('nextBtn').style.display = currentStep < totalSteps ? 'block' : 'none';
+            document.getElementById('generateBtn').style.display = currentStep === totalSteps ? 'block' : 'none';
+
+            if (currentStep === 4) {
+                document.getElementById('roomTypeDisplay').textContent = document.getElementById('roomType').value;
+                document.getElementById('roomAreaDisplay').textContent = document.getElementById('roomArea').value;
+            }
+        }
+
+        function measureWithAR() {
+            window.location.href = '/Home/MeasureAR';
+        }
+
+        function generateDesign() {
+            if (!validateStep(3)) return;
+
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            loadingSpinner.style.display = 'flex';
+
+            const request = {
+                imageId: localStorage.getItem('imageId'),
+                surfaceMode: localStorage.getItem('surfaceMode') || 'both',
+                roomAreaM2: parseFloat(document.getElementById('roomArea').value),
+                roomType: document.getElementById('roomType').value,
+                selectedMaterial: selectedMaterial?.id || '',
+                selectedColor: selectedPalette?.colors[0] || '',
+                colorPalette: selectedPalette?.name || ''
+            };
+
+            fetch('/Home/Generate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(request)
+            })
+            .then(r => r.json())
+            .then(data => {
+                loadingSpinner.style.display = 'none';
+                if (data.success) {
+                    localStorage.setItem('resultImage', data.resultImageUrl);
+                    localStorage.setItem('originalImage', localStorage.getItem('imageUrl'));
+                    window.location.href = '/Home/Result';
+                } else {
+                    alert('Error: ' + data.errorMessage);
+                }
+            })
+            .catch(error => {
+                loadingSpinner.style.display = 'none';
+                alert('Error: ' + error.message);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+@{
+    ViewData["Title"] = "Upload Room Image";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-content">
+                <a href="/" class="back-link">← Back</a>
+                <h1>Upload Room Image</h1>
+            </div>
+        </header>
+
+        <section class="upload-section">
+            <div class="upload-container">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📸</div>
+                    <h3>Drag & Drop Your Image Here</h3>
+                    <p>or click to select a file</p>
+                    <input type="file" id="fileInput" accept="image/*" style="display:none;">
+                </div>
+
+                <div id="previewContainer" style="display:none;" class="preview-container">
+                    <img id="previewImage" src="" alt="Preview" class="preview-image">
+                    <button class="btn btn-secondary" onclick="resetUpload()">Choose Another Image</button>
+                </div>
+            </div>
+
+            <div class="upload-info">
+                <h4>Image Requirements:</h4>
+                <ul>
+                    <li>Format: JPG, PNG, GIF</li>
+                    <li>Max Size: 50 MB</li>
+                    <li>Clear room view recommended</li>
+                </ul>
+            </div>
+
+            <button id="nextBtn" class="btn btn-primary" style="display:none;" onclick="goToEdit()">
+                Next: Edit Design
+            </button>
+        </section>
+
+        <div id="loadingSpinner" class="loading-spinner" style="display:none;">
+            <div class="spinner"></div>
+            <p>Uploading image...</p>
+        </div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const previewContainer = document.getElementById('previewContainer');
+        const previewImage = document.getElementById('previewImage');
+        const nextBtn = document.getElementById('nextBtn');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+
+        let uploadedImageId = null;
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('drag-over');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('drag-over');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('drag-over');
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            if (files.length === 0) return;
+
+            const file = files[0];
+            if (!file.type.startsWith('image/')) {
+                alert('Please select an image file');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImage.src = e.target.result;
+                previewContainer.style.display = 'block';
+                uploadArea.style.display = 'none';
+                uploadImage(file);
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function uploadImage(file) {
+            loadingSpinner.style.display = 'flex';
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/Home/UploadImage', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                loadingSpinner.style.display = 'none';
+                if (data.success) {
+                    uploadedImageId = data.imageId;
+                    localStorage.setItem('imageId', uploadedImageId);
+                    localStorage.setItem('imageUrl', data.imageUrl);
+                    nextBtn.style.display = 'block';
+                } else {
+                    alert('Upload failed: ' + data.errorMessage);
+                    resetUpload();
+                }
+            })
+            .catch(error => {
+                loadingSpinner.style.display = 'none';
+                alert('Error: ' + error.message);
+                resetUpload();
+            });
+        }
+
+        function resetUpload() {
+            previewContainer.style.display = 'none';
+            uploadArea.style.display = 'flex';
+            nextBtn.style.display = 'none';
+            fileInput.value = '';
+            uploadedImageId = null;
+        }
+
+        function goToEdit() {
+            window.location.href = '/Home/Edit';
+        }
+    </script>
+</body>
+</html>

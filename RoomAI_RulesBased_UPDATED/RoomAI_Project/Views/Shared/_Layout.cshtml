@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Room AI</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-brand">
+                <span class="logo-icon">🏠</span>
+                <span class="logo-text">Room AI</span>
+            </a>
+            <div class="navbar-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Room AI - Interior Design with AI. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/js/storage.js"></script>
+    <script src="~/js/ar-measurement.js"></script>
+    <script src="~/js/slider.js"></script>
+</body>
+</html>

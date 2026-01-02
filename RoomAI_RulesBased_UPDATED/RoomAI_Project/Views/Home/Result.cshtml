@@ -1,0 +1,108 @@
+@{
+    ViewData["Title"] = "Design Result";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Your New Design</h1>
+            </div>
+        </header>
+
+        <section class="result-section">
+            <div class="before-after-slider">
+                <div class="img-wrapper">
+                    <img id="beforeImg" src="" alt="Before" class="img-before">
+                    <img id="afterImg" src="" alt="After" class="img-after">
+                    <input type="range" min="0" max="100" value="50" class="slider" id="slider">
+                </div>
+            </div>
+
+            <div class="result-info">
+                <h3>Design Details</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Surface Mode:</span>
+                        <span id="modeInfo" class="value"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Room Type:</span>
+                        <span id="typeInfo" class="value"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Color Palette:</span>
+                        <span id="paletteInfo" class="value"></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Material:</span>
+                        <span id="materialInfo" class="value"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="downloadImage()">
+                    ⬇️ Download Image
+                </button>
+                <button class="btn btn-secondary" onclick="tryAnother()">
+                    🔄 Try Another Design
+                </button>
+                <button class="btn btn-secondary" onclick="goHome()">
+                    🏠 Home
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const beforeImg = localStorage.getItem('originalImage');
+            const afterImg = localStorage.getItem('resultImage');
+
+            if (beforeImg) document.getElementById('beforeImg').src = beforeImg;
+            if (afterImg) document.getElementById('afterImg').src = afterImg;
+
+            const slider = document.getElementById('slider');
+            const afterImage = document.querySelector('.img-after');
+
+            slider.addEventListener('input', (e) => {
+                afterImage.style.width = e.target.value + '%';
+            });
+
+            updateResultInfo();
+        });
+
+        function updateResultInfo() {
+            const surfaceMode = localStorage.getItem('surfaceMode') || 'both';
+            document.getElementById('modeInfo').textContent = 
+                surfaceMode === 'both' ? 'Walls & Floors' : 
+                surfaceMode === 'walls' ? 'Walls Only' : 'Floors Only';
+        }
+
+        function downloadImage() {
+            const link = document.createElement('a');
+            link.href = localStorage.getItem('resultImage');
+            link.download = 'room-design-' + new Date().getTime() + '.jpg';
+            link.click();
+        }
+
+        function tryAnother() {
+            localStorage.clear();
+            window.location.href = '/';
+        }
+
+        function goHome() {
+            window.location.href = '/';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@{
+    ViewData["Title"] = "Room AI - Interior Design with AI";
+}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">Room AI</h1>
+                <p class="tagline">Transform Your Space with AI</p>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Choose Your Design Mode</h2>
+                <p>Select what you'd like to redesign in your room</p>
+            </div>
+        </section>
+
+        <section class="mode-selection">
+            <div class="modes-grid">
+                <div class="mode-card" onclick="selectMode('both')">
+                    <div class="mode-icon">🏠</div>
+                    <h3>Walls & Floors</h3>
+                    <p>Redesign both walls and flooring together</p>
+                    <button class="btn btn-primary">Select</button>
+                </div>
+
+                <div class="mode-card" onclick="selectMode('walls')">
+                    <div class="mode-icon">🎨</div>
+                    <h3>Walls Only</h3>
+                    <p>Change wall colors and textures</p>
+                    <button class="btn btn-primary">Select</button>
+                </div>
+
+                <div class="mode-card" onclick="selectMode('floors')">
+                    <div class="mode-icon">🪵</div>
+                    <h3>Floors Only</h3>
+                    <p>Update your flooring materials</p>
+                    <button class="btn btn-primary">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Room AI?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">⚡</span>
+                    <h4>Fast Processing</h4>
+                    <p>Get results in seconds</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🎯</span>
+                    <h4>Accurate Detection</h4>
+                    <p>AI-powered surface detection</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🎨</span>
+                    <h4>Color Harmony</h4>
+                    <p>Perfectly matched color palettes</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📱</span>
+                    <h4>AR Measurement</h4>
+                    <p>Measure your room with AR</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function selectMode(mode) {
+            localStorage.setItem('surfaceMode', mode);
+            window.location.href = `/Home/SelectMode?mode=${mode}`;
+        }
+    </script>
+</body>
+</html>
