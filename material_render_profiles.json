@@ -1,0 +1,83 @@
+{
+  "defaults": {
+    "floor": {
+      "strength": 0.84,
+      "maskGamma": 0.85,
+      "maskBoost": 1.15,
+      "blurSigmaForShading": 28,
+      "colorMatchAmount": 0.45,
+      "perspectiveTopScale": 0.60,
+      "perspectiveBottomScale": 1.08,
+      "tilePxMin": 70,
+      "tilePxMax": 220
+    }
+  },
+  "categories": {
+    "wood": {
+      "floor": {
+        "tileMetersBase": 0.18,
+        "strength": 0.84,
+        "colorMatchAmount": 0.45,
+        "blurSigmaForShading": 24
+      }
+    },
+    "ceramic": {
+      "floor": {
+        "tileMetersBase": 0.30,
+        "strength": 0.86,
+        "colorMatchAmount": 0.50
+      }
+    },
+    "marble": {
+      "floor": {
+        "tileMetersBase": 0.60,
+        "strength": 0.84,
+        "colorMatchAmount": 0.12,
+        "blurSigmaForShading": 30
+      }
+    },
+    "granite": {
+      "floor": {
+        "tileMetersBase": 0.60,
+        "strength": 0.85,
+        "colorMatchAmount": 0.18
+      }
+    },
+    "stone": {
+      "floor": {
+        "tileMetersBase": 0.45,
+        "strength": 0.84,
+        "colorMatchAmount": 0.18
+      }
+    },
+    "concrete": {
+      "floor": {
+        "tileMetersBase": 0.60,
+        "strength": 0.84,
+        "colorMatchAmount": 0.35
+      }
+    },
+    "travertine": {
+      "floor": {
+        "tileMetersBase": 0.60,
+        "strength": 0.84,
+        "colorMatchAmount": 0.16
+      }
+    },
+    "terrazzo": {
+      "floor": {
+        "tileMetersBase": 0.60,
+        "strength": 0.84,
+        "colorMatchAmount": 0.30
+      }
+    },
+    "mosaic": {
+      "floor": {
+        "tileMetersBase": 0.10,
+        "strength": 0.82,
+        "colorMatchAmount": 0.30
+      }
+    }
+  },
+  "materialsOverride": {}
+}
